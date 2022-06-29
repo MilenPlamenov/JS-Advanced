@@ -23,4 +23,4 @@ solve(['Sample Town | Sample Product | 1000',
 'Sofia | Orange | 3',
 'Sofia | Peach | 2',
 'New York | Sample Product | 1000.1',
-'New York | Burger | 10'])
+'New York | Burger | 10']);
