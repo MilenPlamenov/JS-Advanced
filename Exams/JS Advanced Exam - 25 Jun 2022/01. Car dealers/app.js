@@ -29,9 +29,11 @@ function solve() {
     let btnsTd = document.createElement("td");
     let editBtn = document.createElement("button");
     editBtn.classList.add("action-btn");
+    editBtn.classList.add("edit");
     editBtn.innerHTML = "Edit";
     let sellBtn = document.createElement("button");
     sellBtn.classList.add("action-btn");
+    sellBtn.classList.add("sell")
     sellBtn.innerHTML = "Sell";
     btnsTd.appendChild(editBtn);
     btnsTd.appendChild(sellBtn);
@@ -93,4 +95,3 @@ function solve() {
   })
 }
 
-// working but judge gives me 7/100 ?
